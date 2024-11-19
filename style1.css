@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Playwrite+CL:wght@100..400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+body {
+    background: linear-gradient(#e664b0, #9198e5);
+}
+
+.contenedores-info {
+    display: grid;
+    margin-top: 2%;
+    grid-template-columns: 315px 315px 315px 315px;
+    justify-content: center;
+}
+
+
+/*queda centrar la cuadricula y ponerle una foto*/
+
+.contenedor-primera {
+    display: grid;
+    grid-template-columns: 275px 700px 300px;
+    margin-left: 1%;
+    justify-content: center;
+}
+
+.contactos {
+    justify-content: center;
+}
+
+.mapita {
+    margin-left: 5%;
+}
+
+.datos {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: white;
+}
+
+.datos p {
+    text-align: center;
+    color: rgb(44, 44, 44);
+}
+
+.imagen {
+    margin-top: 5%;
+    border-radius: 5%;
+    height: 250px;
+    width: 200px;
+}
+
+.imagenes {
+    display: grid;
+    grid-template-columns: 120px 130px;
+    justify-content: center;
+    margin-top: 25%;
+}
+
+.c {
+    display: grid;
+    width: 120px;
+    height: 100px;
+    margin-left: 5%;
+}
+
+.php {
+    display: grid;
+    width: 100px;
+    height: 100px;
+    margin-left: 20%;
+}
+
+.formacion-contenedor {
+    display: grid;
+    border: white;
+    border-width: 3px;
+    border-style: solid;
+    width: 300px;
+    height: 450px;
+}
+
+.Experiencia-contenedor {
+    display: grid;
+    border: white;
+    border-width: 3px;
+    border-style: solid;
+    width: 300px;
+    height: 450px;
+}
+
+.Proyectos_destacados {
+    display: grid;
+    border: white;
+    border-width: 3px;
+    border-style: solid;
+    width: 300px;
+    height: 450px;
+}
+
+.gif {
+    margin-left: 8%;
+    margin-top: 21%
+}
+
+.habilidades-contenedor {
+    display: grid;
+    border: white;
+    border-width: 3px;
+    border-style: solid;
+    width: 300px;
+    height: 450px;
+}
+
+h2 {
+    text-align: center;
+}
+
+.contactos {
+    display: flex;
+    margin-top: 3%;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(196, 111, 0);
+}
+
+.b {
+    background-color: rgb(255, 205, 130);
+    width: 100px;
+    height: 23px;
+    border-radius: 8%;
+    margin-top: 5px;
+    text-align: center;
+    border: rgb(255, 177, 87);
+    border-width: 3px;
+    border-style: solid;
+}
+
+h1 {
+    font-family: "Dancing Script", serif;
+    color: white;
+}
+
+.titulo-contacto {
+    font-family: "Dancing Script", serif;
+    color: white;
+}
+
+.titulo {
+    font-family: "Sour Gummy", sans-serif;
+    color: white;
+    height: 70px;
+}
+
+li {
+    color: rgb(44, 44, 44);
+}
+
+p {
+    color: rgb(44, 44, 44);
+    text-align: justify;
+}
+
+.texto {
+    width: 270px;
+    height: 50px;
+    margin-left: 5%;
+}
+
+dl {
+    color: rgb(44, 44, 44);
+}
+
+dt {
+    margin-left: 3%;
+    font-family: "Oswald", sans-serif;
+    color: rgb(255, 205, 130);
+}
